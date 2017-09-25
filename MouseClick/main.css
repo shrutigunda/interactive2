@@ -1,0 +1,15 @@
+.boba:hover, .bobb:hover, .bobc:hover, .bobd:hover{
+cursor: pointer;
+}
+
+#find{
+	position:fixed;
+	top:37%;
+	left:23%;
+	text-align:center;
+	z-index: -11;
+	font-family: 'Codystar', cursive;
+	font-size: 79px;
+	color: black;
+	
+}

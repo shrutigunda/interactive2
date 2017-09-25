@@ -74,11 +74,5 @@ $('#button-39').click(function() {
     location.reload();
 });
 
-	/*
-
-	$('#button-4').mouseover(function() {
-		$('.item').animate({
-			marginLeft: '1in'
-		}, 1000 );
-	});*/
+	
 });

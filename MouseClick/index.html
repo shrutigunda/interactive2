@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MouseClick</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"
+            integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE="
+            crossorigin="anonymous"></script>
+    <script src="/path/to/jquery.flip.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"/>
+    <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+<script type="text/javascript">
+//var j, statement;
+//for (j=0; j<=statement; ++j){
+
+
+var sidea, topa, lefta, colora, i;
+var squaresa = 7;
+var diva = [squaresa];
+for (i = 0; i <= squaresa; ++i){
+  sidea = ((Math.random()*$(document).height()) - 10).toFixed();
+//  topa = (Math.random() * ($(document).height() - side)).toFixed();
+topa = 0;
+  lefta = (Math.random() * ($(document).width() - sidea)).toFixed();
+  colora = Math.round(0xffffff * Math.random()).toString(16);
+
+  diva[i] = '<div class= "boba" style = "position:absolute; height: ' + sidea + 'px; width: ' + sidea + 'px; top: ' + topa + 'px; left: ' + lefta + 'px; background: #' + colora + '; ">.</div>';
+  document.write(diva[i]);
+
+
+}
+$(document).ready(function() {
+$(".boba").click(function(){
+               $(this).hide( "blind", {direction: "up"}, 2000 );
+            });
+$(document).click(function(){
+               $(".boba").show( "blind", {direction: "up"}, 7000 );
+            });
+});
+
+
+var sideb, topb, leftb, colorb, j;
+var squaresb = 7;
+var divb = [squaresb];
+for (j = 0; j <= squaresb; ++j){
+  sideb = ((Math.random()*$(document).height()) - 10).toFixed();
+topb = (Math.random() * ($(document).height() - sideb)).toFixed();
+ //leftb = (Math.random() * ($(document).width() - sideb)).toFixed();
+ leftb=0;
+  colorb = Math.round(0xffffff * Math.random()).toString(16);
+
+  divb[j] = '<div class= "bobb" style = "position:absolute; height: ' + sideb + 'px; width: ' + sideb + 'px; top: ' + topb + 'px; left: ' + leftb + 'px; background: #' + colorb + '; ">.</div>';
+  document.write(divb[j]);
+
+
+}
+$(document).ready(function() {
+$(".bobb").click(function(){
+               $(this).hide( "blind", {direction: "left"}, 2000 );
+            });
+$(document).click(function(){
+               $(".bobb").show( "blind", {direction: "left"}, 7000 );
+            });
+});
+
+
+var sidec, topc, leftc, colorc, k;
+var squaresc = 5;
+var divc = [squaresc];
+for (k = 0; k <= squaresc; ++k){
+  sidec = ((Math.random()*$(document).height()) - 10).toFixed();
+topc =0;
+  leftc = (Math.random() * ($(document).width() - sidec)).toFixed();
+  colorc = Math.round(0xffffff * Math.random()).toString(16);
+
+  divc[k] = '<div class= "bobc" style = "position:absolute; height: ' + sidec + 'px; width: ' + sidec + 'px; bottom: ' + topc + 'px; left: ' + leftc + 'px; background: #' + colorc + '; ">.</div>';
+  document.write(divc[k]);
+
+
+}
+$(document).ready(function() {
+$(".bobc").click(function(){
+               $(this).hide( "blind", {direction: "down"}, 2000 );
+            });
+$(document).click(function(){
+               $(".bobc").show( "blind", {direction: "down"}, 7000 );
+            });
+});
+
+
+
+var sided, topd, leftd, colord, l;
+var squaresd = 5;
+var divd = [squaresd];
+for (l = 0; l <= squaresd; ++l){
+  sided = ((Math.random()*$(document).height()) - 10).toFixed();
+ topa = (Math.random() * ($(document).height() - sided)).toFixed();
+
+  leftd = 0;
+  colord = Math.round(0xffffff * Math.random()).toString(16);
+
+  divd[l] = '<div class= "bobd" style = "position:absolute; height: ' + sided + 'px; width: ' + sided + 'px; top: ' + topd + 'px; right: ' + leftd + 'px; background: #' + colord + '; ">.</div>';
+  document.write(divd[l]);
+
+
+}
+$(document).ready(function() {
+$(".bobd").click(function(){
+               $(this).hide( "blind", {direction: "right"}, 2000 );
+            });
+$(document).click(function(){
+               $(".bobd").show( "blind", {direction: "right"}, 7000 );
+            });
+});
+
+
+
+
+
+//}
+
+</script>
+<div id="find">find what you're<br>looking for?</div>
+</body>
+
+
+
+
