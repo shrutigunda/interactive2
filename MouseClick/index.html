@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="script.js"></script>
     <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"
-            integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE="
+            integrity="sha256-H28SdxWrZ3811Ldn0qogCzFiUDDxfPiNIyJX11BECQkDE="
             crossorigin="anonymous"></script>
     <script src="/path/to/jquery.flip.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"/>
@@ -22,18 +22,19 @@
 </head>
 
 <body>
+<div id="container">
 <script type="text/javascript">
 //var j, statement;
 //for (j=0; j<=statement; ++j){
 
 
 var sidea, topa, lefta, colora, i;
-var squaresa = 7;
+var squaresa = 11;
 var diva = [squaresa];
 for (i = 0; i <= squaresa; ++i){
-  sidea = ((Math.random()*$(document).height()) - 10).toFixed();
+  sidea = (Math.random()*$(document).height()).toFixed();
 //  topa = (Math.random() * ($(document).height() - side)).toFixed();
-topa = 0;
+topa = -50;
   lefta = (Math.random() * ($(document).width() - sidea)).toFixed();
   colora = Math.round(0xffffff * Math.random()).toString(16);
 
@@ -44,22 +45,22 @@ topa = 0;
 }
 $(document).ready(function() {
 $(".boba").click(function(){
-               $(this).hide( "blind", {direction: "up"}, 2000 );
+               $(this).hide( "blind", {direction: "up"}, 2300 );
             });
 $(document).click(function(){
-               $(".boba").show( "blind", {direction: "up"}, 7000 );
+               $(".boba").show( "blind", {direction: "up"}, 4700 );
             });
 });
 
 
 var sideb, topb, leftb, colorb, j;
-var squaresb = 7;
+var squaresb = 11;
 var divb = [squaresb];
 for (j = 0; j <= squaresb; ++j){
-  sideb = ((Math.random()*$(document).height()) - 10).toFixed();
+  sideb = (Math.random()*$(document).height()).toFixed();
 topb = (Math.random() * ($(document).height() - sideb)).toFixed();
  //leftb = (Math.random() * ($(document).width() - sideb)).toFixed();
- leftb=0;
+ leftb=-50;
   colorb = Math.round(0xffffff * Math.random()).toString(16);
 
   divb[j] = '<div class= "bobb" style = "position:absolute; height: ' + sideb + 'px; width: ' + sideb + 'px; top: ' + topb + 'px; left: ' + leftb + 'px; background: #' + colorb + '; "></div>';
@@ -69,20 +70,20 @@ topb = (Math.random() * ($(document).height() - sideb)).toFixed();
 }
 $(document).ready(function() {
 $(".bobb").click(function(){
-               $(this).hide( "blind", {direction: "left"}, 2000 );
+               $(this).hide( "blind", {direction: "left"}, 2300 );
             });
 $(document).click(function(){
-               $(".bobb").show( "blind", {direction: "left"}, 7000 );
+               $(".bobb").show( "blind", {direction: "left"}, 4700 );
             });
 });
 
 
 var sidec, topc, leftc, colorc, k;
-var squaresc = 5;
+var squaresc = 11;
 var divc = [squaresc];
 for (k = 0; k <= squaresc; ++k){
-  sidec = ((Math.random()*$(document).height()) - 10).toFixed();
-topc =0;
+  sidec = (Math.random()*$(document).height()).toFixed();
+topc = -50;
   leftc = (Math.random() * ($(document).width() - sidec)).toFixed();
   colorc = Math.round(0xffffff * Math.random()).toString(16);
 
@@ -93,23 +94,23 @@ topc =0;
 }
 $(document).ready(function() {
 $(".bobc").click(function(){
-               $(this).hide( "blind", {direction: "down"}, 2000 );
+               $(this).hide( "blind", {direction: "down"}, 2300 );
             });
 $(document).click(function(){
-               $(".bobc").show( "blind", {direction: "down"}, 7000 );
+               $(".bobc").show( "blind", {direction: "down"}, 4700 );
             });
 });
 
 
 
 var sided, topd, leftd, colord, l;
-var squaresd = 5;
+var squaresd = 11;
 var divd = [squaresd];
 for (l = 0; l <= squaresd; ++l){
-  sided = ((Math.random()*$(document).height()) - 10).toFixed();
+  sided = (Math.random()*$(document).height()).toFixed();
  topd = (Math.random() * ($(document).height() - sided)).toFixed();
 
-  leftd = 0;
+  leftd = -50;
   colord = Math.round(0xffffff * Math.random()).toString(16);
 
   divd[l] = '<div class= "bobd" style = "position:absolute; height: ' + sided + 'px; width: ' + sided + 'px; top: ' + topd + 'px; right: ' + leftd + 'px; background: #' + colord + '; "></div>';
@@ -119,10 +120,10 @@ for (l = 0; l <= squaresd; ++l){
 }
 $(document).ready(function() {
 $(".bobd").click(function(){
-               $(this).hide( "blind", {direction: "right"}, 2000 );
+               $(this).hide( "blind", {direction: "right"}, 2300 );
             });
 $(document).click(function(){
-               $(".bobd").show( "blind", {direction: "right"}, 7000 );
+               $(".bobd").show( "blind", {direction: "right"}, 4700 );
             });
 });
 
@@ -133,7 +134,9 @@ $(document).click(function(){
 //}
 
 </script>
+
 <div id="find">find what you're<br>looking for?</div>
+</div>
 </body>
 
 

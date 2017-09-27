@@ -2,6 +2,18 @@
 cursor: pointer;
 }
 
+#container{
+	height:100%;
+	width:100%;
+	position:fixed;
+}
+
+.boba, .bobb, .bobc, .bobd{
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
 #find{
 	position:fixed;
 	top:37%;
