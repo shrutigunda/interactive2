@@ -1,0 +1,224 @@
+.letter{
+	
+}
+
+#a{
+	width: 250px;
+	height: 250px;
+}
+.unit-a{
+	position:relative;
+	width: 20%;
+	height: 20%;
+	float: left;
+}
+
+#b{
+	width: 250px;
+	height: 400px;
+}
+
+.unit-b{
+	position:relative;
+	width: 20%;
+	height: 12.5%;
+	float: left;
+}
+
+#c{
+	width: 200px;
+	height: 250px;
+}
+.unit-c{
+	position:relative;
+	width: 25%;
+	height: 20%;
+	float: left;
+}
+
+#d{
+	width: 250px;
+	height: 400px;
+	transform: scaleX(-1);
+}
+
+#e{
+	width: 200px;
+	height: 250px;
+}
+
+#f{
+	width: 200px;
+	height: 550px;
+}
+
+.unit-f{
+	position:relative;
+	width: 25%;
+	height: 9.09%;
+	float: left;
+}
+
+#g{
+	width:250px;
+	height:400px;
+}
+.unit-g{
+	position:relative;
+	width: 20%;
+	height: 12.5%;
+	float: left;
+}
+
+#h{
+	width:250px;
+	height:400px;
+}
+
+#i{
+	width:100px;
+	height:250px;
+}
+.unit-i{
+	position: relative;
+	width:50%;
+	height:20%;
+	float:left;
+}
+
+#j{
+	width:150px;
+	height:400px;
+}
+.unit-j{
+	position:relative;
+	width:33.33%;
+	height:12.5%;
+	float:left;
+}
+
+#k{
+	width: 250px;
+	height: 400px;
+}
+
+.unit-k{
+	position:relative;
+	width: 20%;
+	height: 12.5%;
+	float: left;
+}
+
+#l{
+	width:200px;
+	height:400px;
+}
+.unit-l{
+	position:relative;
+	width:25%;
+	height:12.5%;
+	float:left;
+}
+
+#m{
+	width:400px;
+	height:250px;
+}
+.unit-m{
+	position:relative;
+	width:12.5%;
+	height:20%;
+	float:left;
+}
+
+#n{
+	width:250px;
+	height:250px;
+}
+
+#o{
+	width:250px;
+	height:250px;
+}
+
+#p{
+	width: 250px;
+	height: 400px;
+	transform: scaleY(-1);
+}
+
+#q{
+	width: 250px;
+	height: 400px;
+	transform: scale(-1, -1);
+}
+
+#r{
+	width:200px;
+	height:250px;
+}
+
+#s{
+	width:250px;
+	height:250px;
+}
+
+#t{
+	width:150px;
+	height:400px;
+}
+
+#u{
+	width:250px;
+	height:250px;
+}
+
+#v{
+	width:250px;
+	height:250px;
+}
+
+#w{
+	width:400px;
+	height:250px;
+}
+
+#x{
+	width:250px;
+	height:250px;
+}
+
+#y{
+	width:250px;
+	height:400px;
+}
+
+#z{
+	width:250px;
+	height:250px;
+}
+
+.small{
+	width:40%;
+	height:40%;
+	position: absolute;
+	top:30%;
+	left:30%;
+	border-radius:50%;
+	background-color:black;
+}
+.medium{
+	width:70%;
+	height:70%;
+	position: absolute;
+	top: 15%;
+	left:15%;
+	border-radius:50%;
+	background-color:black;
+}
+.large{
+	width:100%;
+	height:100%;
+	border-radius:50%;
+	background-color: black;
+}
