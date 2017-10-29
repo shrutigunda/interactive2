@@ -1,0 +1,478 @@
+body{
+	background-color: #071827;
+	font-family: 'Abel', sans-serif;
+	color: transparent;
+	text-shadow: 0 0 1px #9ce57b;
+	font-size: 23px;
+	line-height: 1.4;
+	letter-spacing: 0.75px;
+}
+
+#intro{
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+}
+
+#dotscroll{
+	width:25px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#dot1{
+	width:25px;
+	height:25px;
+	position:relative;
+	top:100px;
+}
+#dot2{
+	width:25px;
+	height:25px;
+	position:relative;
+	top:150px;
+}
+#dot3{
+	width:25px;
+	height:25px;
+	position:relative;
+	top:200px;
+}
+#dot4{
+	width:25px;
+	height:25px;
+	position:relative;
+	top:250px;
+}
+#dot5{
+	width:25px;
+	height:25px;
+	position:relative;
+	top:300px;
+}
+#dot6{
+	width:25px;
+	height:25px;
+	position:relative;
+	top:350px;
+}
+#dot7{
+	width:25px;
+	height:25px;
+	position:relative;
+	top:400px;
+}
+
+#dot8{
+	width:25px;
+	height:25px;
+	position:relative;
+	top:450px;
+}
+
+#dot9{
+	width:25px;
+	height:25px;
+	position:relative;
+	top:500px;
+}
+
+
+#container{
+	width: 1350px;
+	margin-top:600px;
+}
+
+.row{
+	width:1350px;
+	height:275px;
+	margin-bottom:75px;
+}
+
+.alphabet{
+	position: relative;
+	float: left;
+	margin-left:75px;
+}
+
+#info{
+	position: fixed;
+	right:50px;
+	top:50px;
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	border: 1px solid #9ce57b;
+	box-shadow: 0px 0px 20px #9ce57b;
+	box-sizing: border-box;
+	filter: blur(1px);
+	cursor:pointer;
+}
+#info:hover{
+	width:50px;
+	height:50px;
+	top:35px;
+	right:35px;
+	transition: 0.5s;
+}
+#info:active{
+	background-color: #9ce57b;
+}
+
+#a{
+	width: 125px;
+	height: 125px;
+	top:75px;
+}
+.unit-a{
+	position:relative;
+	width: 20%;
+	height: 20%;
+	float: left;
+}
+
+#b{
+	width: 125px;
+	height: 200px;
+}
+
+.unit-b{
+	position:relative;
+	width: 20%;
+	height: 12.5%;
+	float: left;
+}
+
+#c{
+	width: 100px;
+	height: 125px;
+	top:75px;
+}
+.unit-c{
+	position:relative;
+	width: 25%;
+	height: 20%;
+	float: left;
+}
+
+#d{
+	width: 125px;
+	height: 200px;
+	transform: scaleX(-1);
+
+}
+
+#e{
+	width: 100px;
+	height: 125px;
+	top:75px;
+}
+
+#f{
+	width: 100px;
+	height: 275px;
+	
+}
+
+.unit-f{
+	position:relative;
+	width: 25%;
+	height: 9.09%;
+	float: left;
+}
+
+#g{
+	width:125px;
+	height:200px;
+	top:75px;
+}
+.unit-g{
+	position:relative;
+	width: 20%;
+	height: 12.5%;
+	float: left;
+}
+
+#h{
+	width:125px;
+	height:200px;	
+}
+
+#i{
+	width:50px;
+	height:150px;
+	top:50px;
+}
+.unit-i{
+	position: relative;
+	width:50%;
+	height:16.66%;
+	float:left;
+}
+
+#j{
+	width:75px;
+	height:225px;
+	top:50px;
+}
+.unit-j{
+	position:relative;
+	width:33.33%;
+	height:11.11%;
+	float:left;
+}
+
+#k{
+	width: 125px;
+	height: 200px;
+	
+}
+
+.unit-k{
+	position:relative;
+	width: 20%;
+	height: 12.5%;
+	float: left;
+}
+
+#l{
+	width:100px;
+	height:200px;	
+}
+.unit-l{
+	position:relative;
+	width:25%;
+	height:12.5%;
+	float:left;
+}
+
+#m{
+	width:200px;
+	height:125px;
+	top:75px;
+}
+.unit-m{
+	position:relative;
+	width:12.5%;
+	height:20%;
+	float:left;
+}
+
+#n{
+	width:125px;
+	height:125px;
+	top:75px;
+}
+
+#o{
+	width:125px;
+	height:125px;
+	top:75px;
+}
+
+#p{
+	width: 125px;
+	height: 200px;
+	transform: scaleY(-1);
+	top:75px;
+}
+
+#q{
+	width: 125px;
+	height: 200px;
+	transform: scale(-1, -1);
+	top:75px;
+}
+
+#r{
+	width:100px;
+	height:125px;
+	top:75px;
+}
+
+#s{
+	width:125px;
+	height:125px;
+	top:75px;
+}
+
+#t{
+	width:75px;
+	height:200px;
+}
+.unit-t{
+	position:relative;
+	width:33.33%;
+	height:12.5%;
+	float:left;
+}
+
+#u{
+	width:125px;
+	height:125px;
+	top:75px;
+}
+
+#v{
+	width:125px;
+	height:125px;
+	top:75px;
+}
+
+#w{
+	width:200px;
+	height:125px;
+	top:75px;
+}
+
+#x{
+	width:125px;
+	height:125px;
+	top:75px;
+}
+
+#y{
+	width:125px;
+	height:200px;
+	top:75px;
+}
+
+#z{
+	width:125px;
+	height:125px;
+	top:75px;
+}
+
+#zero{
+	width: 125px;
+	height: 200px;
+}
+
+#one{
+	width:100px;
+	height:200px;
+}
+
+#two{
+	width: 125px;
+	height: 200px;
+}
+
+#three{
+	width: 125px;
+	height: 200px;
+}
+
+#four{
+	width: 125px;
+	height: 200px;
+}
+
+#five{
+	width: 125px;
+	height: 200px;
+}
+
+#six{
+	width: 125px;
+	height: 200px;
+}
+
+#seven{
+	width: 125px;
+	height: 200px;
+}
+
+#eight{
+	width: 125px;
+	height: 200px;
+}
+
+#nine{
+	width: 125px;
+	height: 200px;
+}
+
+#que{
+	width: 125px;
+	height: 225px;
+}
+.unit-que{
+	position:relative;
+	width: 20%;
+	height: 11.11%;
+	float: left;
+}
+
+#ex{
+	width:50px;
+	height:225px;
+}
+.unit-ex{
+	position: relative;
+	width:50%;
+	height:11.11%;
+	float:left;
+}
+
+#period{
+	width:25px;
+	height:50px;
+	top:175px;
+}
+#comma{
+	width:25px;
+	height:50px;
+	top:175px;
+}
+#quote{
+	width:50px;
+	height:50px;
+}
+.unit-punc{
+	position: relative;
+	width:100%;
+	height:50%;
+
+}
+.unit-quote{
+	position:relative;
+	width:50%;
+	height:50%;
+	float:left;
+}
+.small{
+	width:40%;
+	height:40%;
+	position:absolute;
+	top:30%;
+	left:30%;
+	border-radius:50%;
+	border: 1px solid #9ce57b;
+	box-sizing: border-box;
+	box-shadow:0px 0px 20px #9ce57b;
+	filter: blur(1px);
+}
+.medium{
+	width:70%;
+	height:70%;
+	position: absolute;
+	top: 15%;
+	left:15%;
+	border-radius:50%;
+	border: 1px solid #9ce57b;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 20px #9ce57b;
+	filter: blur(1px);
+}
+
+.large{
+	width:100%;
+	height:100%;
+	border-radius:50%;
+	border: 1px solid #9ce57b;
+	box-shadow: 0px 0px 20px #9ce57b;
+	box-sizing: border-box;
+	filter: blur(1px);
+}
