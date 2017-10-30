@@ -1,22 +1,45 @@
 body{
 	background-color: #071827;
+	
+}
+
+#intro{
+	width:750px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:400px;
 	font-family: 'Abel', sans-serif;
-	color: transparent;
+	color:transparent;
+	text-shadow: 0 0 1.25px #9ce57b;
+	font-size: 23px;
+	line-height: 1.4;
+	letter-spacing: 0.75px;
+}
+#darwin{
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+	font-family: 'Abel', sans-serif;
+	color:transparent;
 	text-shadow: 0 0 1px #9ce57b;
 	font-size: 23px;
 	line-height: 1.4;
 	letter-spacing: 0.75px;
 }
 
-#intro{
-	width:750px;
+#dotscroll1{
+	width:25px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:150px;
 }
 
-#dotscroll{
+
+#dotscroll2{
 	width:25px;
+	margin-top:-200px;
+	
 	margin-left:auto;
 	margin-right:auto;
 }

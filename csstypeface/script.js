@@ -108,4 +108,5 @@ $(".letter").mouseleave(function(){
         "transition": "3s"
         }); 
     });
+
 });
