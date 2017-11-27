@@ -1,0 +1,32 @@
+body{
+	font-family: 'Economica', sans-serif;
+}
+#text{
+	width:370px;
+	position:fixed;
+	top:350px;
+	left:600px;
+	font-size:19px;
+	color:white;
+	background-color: black;
+	text-align: center;
+}
+
+a {
+	color:white;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+
+
+body{
+	background-color: black;
+}
+#box{
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+
+
