@@ -41,42 +41,19 @@ $("#five").mouseenter(function(){
         });
     });
 
+$("#conseq").mouseenter(function(){
+	$(this).css({
+		"font-size":"23px",
+		"transition":"2s"
+	});
+});
 
-$("#bio").hide();
-$("#quote").show();
-
-$("#artist").mouseenter(function(){
-    $("#bio").show(3000);
-    $("#quote").css({
-    	"color": "transparent",
-    	"transition": "color 3s"
-    });
-    });
-
-$("#artist").mouseleave(function(){
-    $("#bio").hide(3000);
-    $("#quote").css({
-    	"color": "white",
-    	"transition": "color 3s"
-    });
-    });
-
-$("#info").hide();
-
-$("#name").mouseenter(function(){
-    $("#info").show(3000);
-    $("#quote").css({
-    	"color": "transparent",
-    	"transition": "color 3s"
-    });
-    });
-$("#name").mouseleave(function(){
-    $("#info").hide(3000);
-    $("#quote").css({
-    	"color": "white",
-    	"transition": "color 3s"
-    });
-    });
+$("#conseq").mouseleave(function(){
+	$(this).css({
+		"font-size":"19px",
+		"transition":"2s"
+	});
+});
 
 $('#quote a').okshadow({
   color: 'white',
@@ -87,6 +64,17 @@ $('#quote a').okshadow({
   fuzzMin: 0,
   fuzz: 30
 });
+
+$('#reality a').okshadow({
+  color: 'white',
+  textShadow: true,
+  transparent: true,
+  xMax: 0,
+  yMax: 0,
+  fuzzMin: 0,
+  fuzz: 30
+});
+
 
 $("#spot").okshadow({
 	color:'white',
@@ -125,5 +113,7 @@ $(function(){
 		fuzzFactor: '1'
 	});
 });*/
+
+
 
 });
